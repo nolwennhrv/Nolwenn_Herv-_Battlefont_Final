@@ -1,0 +1,759 @@
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  display: block;
+  position: relative;
+  width: 1700px;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.fungal{
+  font-family: 'FungalGX';
+  font-variation-settings:"grow" 100, "THCK" 676 ;
+}
+
+
+.bricolage{
+  font-family: 'BricolageGrotesque';
+  font-variation-settings: "wdth" 80, "wght" 200, "opsz" 35 ;
+}
+
+i{
+  font-size: 100px;
+  color:black;
+}
+
+.tic{
+  font-family: 'BricolageGrotesque';
+   /*Paramètre de l'animation :*/
+   animation-name: tic; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+   animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+   animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+   animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+   animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+   /*--------------------------------------------------------------------------------------------*/
+   
+   /*vous pouvez éventuellement utiliser :*/
+   animation-play-state: paused; /*mettre en pause une animation*/
+   animation-play-state: running; /*jouer une animation*/
+   animation-timing-function: steps(2, end);
+}
+
+.tac{
+  font-family: 'BricolageGrotesque';
+   /*Paramètre de l'animation :*/
+   animation-name: tac; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+   animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+   animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+   animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+   animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+   animation-timing-function: steps(2, end);
+   /*--------------------------------------------------------------------------------------------*/
+   
+   /*vous pouvez éventuellement utiliser :*/
+   animation-play-state: paused; /*mettre en pause une animation*/
+   animation-play-state: running; /*jouer une animation*/
+}
+
+
+.plic{
+
+   /*Paramètre de l'animation :*/
+   animation-name: plic; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+   animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+   animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+   animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+   animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+   animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+   /*--------------------------------------------------------------------------------------------*/
+   
+   /*vous pouvez éventuellement utiliser :*/
+   animation-play-state: paused; /*mettre en pause une animation*/
+   animation-play-state: running; /*jouer une animation*/
+}
+
+.pluie{
+
+  /*Paramètre de l'animation :*/
+  animation-name: pluie; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+}
+ 
+#ligne1{
+
+  /*Paramètre de l'animation :*/
+  animation-name: ligne1; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+}
+#ligne2{
+
+  /*Paramètre de l'animation :*/
+  animation-name: ligne2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+}
+#ligne3{
+
+  /*Paramètre de l'animation :*/
+  animation-name: ligne3; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+}
+#ligne4{
+
+  /*Paramètre de l'animation :*/
+  animation-name: ligne4; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+}
+#ligne5{
+
+  /*Paramètre de l'animation :*/
+  animation-name: ligne5; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+}
+#ligne6{
+
+  /*Paramètre de l'animation :*/
+  animation-name: ligne6; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+}
+#ligne7{
+
+  /*Paramètre de l'animation :*/
+  animation-name: ligne7; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+}
+#ligne8{
+
+  /*Paramètre de l'animation :*/
+  animation-name: ligne8; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+}
+#ligne9{
+
+  /*Paramètre de l'animation :*/
+  animation-name: ligne9; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+}
+
+#bang{
+
+  /*Paramètre de l'animation :*/
+  animation-name: bang; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1.3s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+}
+
+#vlan:hover{
+  animation-play-state: running;
+  }
+
+
+#vlan{
+  animation-name: vlan; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count:infinite; /*nombre d'itération de l'animation*/
+  animation-play-state: paused;
+  }
+
+#splash{
+  animation-name: splash; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count:infinite; /*nombre d'itération de l'animation*/
+}
+
+#plicplic{
+  position: relative;
+  top: 100px;
+  left:100px;
+}
+
+  #plic1{
+  position: relative;
+
+  }
+
+  #plic2{
+    position: relative;
+    top: 50px;
+    }
+
+    #plic3{
+      position: relative;
+      top: 100px;
+      }
+
+      #plic4{
+        position: relative;
+        top: 150px;
+        }
+
+        #plic5{
+          position: relative;
+          top: 200px;
+          }
+
+          #plic6{
+            position: relative;
+            top: 250px;
+            }
+
+
+#plic7{
+ position: absolute;
+   top: 500px;
+   left:1090px;
+   transform:rotate(10deg);
+ }
+ #plic8{
+  position: absolute;
+    top: 700px;
+    left:1120px;
+    transform:rotate(35deg);
+  }
+  #plic9{
+    position: absolute;
+      top: 950px;
+      left:1200px;
+      transform:rotate(45deg);
+    }
+    #plic10{
+      position: absolute;
+        top: 1200px;
+        left:1300px;
+        transform:rotate(75deg);
+      }
+
+.tic{
+  color: darkkhaki;
+}
+.tac{
+  color: maroon;
+}
+
+#tictac{
+  position: relative;
+  top: 120px;
+  left:100px;
+  z-index: -1;
+}
+
+#tic1{
+  position:relative;
+  top: -50px;
+}
+
+#tac1{
+  position:relative;
+  top: 0px;
+  left: 70px;
+}
+
+#tic2{
+  position:relative;
+  top: 50px;
+  left:135px;
+}
+
+#tac2{
+  position:relative;
+  top: 100px;
+  left:205px;
+}
+
+#tic3{
+  position:relative;
+  top: 150px;
+  left:265px;
+}
+
+#tac3{
+  position:relative;
+  top: 200px;
+  left:335px;
+}
+
+.averse{
+ line-height:85px;
+  font-variation-settings: "grow" 100, "THCK" 676;
+  mix-blend-mode: multiply;
+}
+
+#ligne1:hover, #ligne2:hover, #ligne3:hover, #ligne4:hover, #ligne5:hover, #ligne6:hover, #ligne7:hover, #ligne8:hover, #ligne9:hover {
+font-variation-settings:"grow" 0, "THCK" 0;
+animation-name: none;
+}
+
+.averseparent{
+  cursor: url(../image/parapluie.png),pointer;
+  position: absolute;
+  height: auto;
+  top: 1300px;
+  width:100%;
+  text-align: center;
+}
+
+#ligne1{
+  color: rgb(0, 138, 138);
+  position: relative;
+
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+#ligne2{
+  color: darkcyan;
+  position: relative;
+  
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+#ligne3{
+  color: darkcyan;
+  position: relative;
+ 
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+#ligne4{
+  color: darkcyan;
+  position: relative;
+
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+#ligne5{
+  color: darkcyan;
+  position: relative;
+
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+#ligne6{
+  color: darkcyan;
+  position: relative;
+ 
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+#ligne7{
+  color: darkcyan;
+  position: relative;
+
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+#bang{
+  color: rgb(171, 40, 40);
+  z-index: -1;
+  font-size: 550px;
+  position: absolute;
+  top: 1760px;
+  text-align: center;
+  font-variation-settings:"wdth" 75,"wght" 600, "opsz" 35;
+  width: 100%;
+}
+
+#bada{
+  color: rgb(0, 0, 0);
+  font-size: 400px;
+  transform:rotate(270deg);
+  position: absolute;
+  top: 2015px;
+  left: 30px;
+  font-variation-settings:"wdth" 75,"wght" 600, "opsz" 35;
+}
+
+#boum{
+  color: rgb(0, 0, 0);
+  font-size: 350px;
+  transform:rotate(270deg);
+  position: absolute;
+  top: 2027px;
+  left: 790px;
+  font-variation-settings:"wdth" 75,"wght" 600, "opsz" 35;
+}
+
+#vlan{
+  color: rgb(0, 0, 0);
+  font-size: 200px;
+  position: absolute;
+  top: 1848px;
+  text-align: center;
+  width: 100%;
+  font-variation-settings:"grow" 1000,"THCK" 174;
+}
+
+#splash{
+  color:darkcyan;
+  font-size: 280px;
+  position: absolute;
+  top: 2500px;
+  text-align: center;
+  width: 100%;
+  font-variation-settings:"grow" 1000,"THCK" 174;
+}
+
+#horloge{
+  position: relative;
+  top: 2700px;
+  left:100px;
+  z-index: -1;
+}
+#tic4{
+  position:relative;
+  left:900px;
+}
+
+#tac4{
+  position:relative;
+  top: 230px;
+  left: 950px;
+}
+
+#tic5{
+  position:relative;
+  top: 350px;
+  left:500px;
+}
+
+#tac5{
+  position:relative;
+  top: 500px;
+  left:600px;
+}
+
+#tic6{
+  position:relative;
+  top: 700px;
+  left:0px;
+}
+
+#tac6{
+  position:relative;
+  top: 700px;
+  left:10px;
+}
+
+#tic7{
+  position:relative;
+  top: 700px;
+  left:20px;
+}
+
+#tac7{
+  position:relative;
+  top: 700px;
+  left:30px;
+}
+
+#tic8{
+  position:relative;
+  top: 700px;
+  left:40px;
+}
+
+#tac8{
+  position:relative;
+  top: 700px;
+  left:50px;
+}
+
+@keyframes plic { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+color: black;
+font-variation-settings:"grow" 100, "THCK" 676 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+color:darkcyan; 
+font-variation-settings:"grow" 800, "THCK" 676 ;
+}
+}
+
+@keyframes tic { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+  font-size: 70px;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+  font-size: 150px;
+}
+}
+
+@keyframes tac { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+  font-size: 100px;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+  font-size: 30px;
+}
+}
+
+@keyframes pluie { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+color: black;
+font-variation-settings:"grow" 100, "THCK" 676 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+color:darkcyan; 
+font-variation-settings:"grow" 800, "THCK" 676 ;
+}
+}
+
+
+@keyframes ligne1 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-variation-settings:"grow" 100, "THCK" 200 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+font-variation-settings:"grow" 700, "THCK" 400 ;
+}
+}
+
+@keyframes ligne2 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-variation-settings:"grow" 800, "THCK" 200 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+font-variation-settings:"grow" 250, "THCK" 200 ;
+}
+}
+
+@keyframes ligne3 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-variation-settings:"grow" 135, "THCK" 400 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+font-variation-settings:"grow" 900, "THCK" 200 ;
+}
+}
+
+@keyframes ligne4 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-variation-settings:"grow" 950, "THCK" 200 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+font-variation-settings:"grow" 200, "THCK" 400 ;
+}
+}
+
+@keyframes ligne5 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-variation-settings:"grow" 160, "THCK" 200 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+font-variation-settings:"grow" 760, "THCK" 400 ;
+}
+}
+
+@keyframes ligne6 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-variation-settings:"grow" 900, "THCK" 300 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+font-variation-settings:"grow" 210, "THCK" 200 ;
+}
+}
+
+@keyframes ligne7 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-variation-settings:"grow" 950, "THCK" 200 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+font-variation-settings:"grow" 170, "THCK" 400 ;
+}
+}
+
+@keyframes ligne8 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-variation-settings:"grow" 300, "THCK" 200 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+font-variation-settings:"grow" 900, "THCK" 200 ;
+}
+}
+
+@keyframes ligne9 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-variation-settings:"grow" 950, "THCK" 200 ;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+font-variation-settings:"grow" 150, "THCK" 500 ;
+}
+}
+
+@keyframes bang {
+  0% { transform: skewX(0deg); }
+  16% { transform: skewX(-15deg); }
+  32% { transform: skewX(15deg); }
+  48% { transform: skewX(-15deg); }
+  64% { transform: skewX(15deg); }
+  80% { transform: skewX(-15deg); }
+  100% { transform: skewX(0deg); }
+ }
+ 
+ @keyframes vlan { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{font-size: 50px;}
+80%{font-size: 200px;}
+100%{font-size: 200px;}
+}
+
+@keyframes splash { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{font-size: 50px;top: 2400px;font-variation-settings:"grow" 100, "THCK" 676 ;}
+50%{font-size: 200px;top: 2600px;}
+60%{font-size: 200px;top: 2600px;}
+61% { transform: skewX(0deg);font-variation-settings:"grow" 100, "THCK" 676 ;}
+67% { transform: skewX(-15deg); }
+73% { transform: skewX(15deg); }
+79% { transform: skewX(-15deg);font-variation-settings:"grow" 100, "THCK" 676 ;}
+85% { transform: skewX(15deg); }
+91% { transform: skewX(-15deg); }
+100% { transform: skewX(0deg);font-variation-settings:"grow" 100, "THCK" 676 ;}
+}
